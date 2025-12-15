@@ -1,0 +1,22 @@
+streamlit
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+transformers
+torch
+langchain-groq
+tzdata
+typing-extensions
+pytz
+# Google Calendar & Gmail API
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+
+setx SMTP_USER "deepakharwani132@gmail.com"
+setx SMTP_PASS "daemqidpcoigbvdn"
+
+hey i have two meeting agrnt 1 with chatbot another wsith chatbot i will give both code to you can you copy all about chatbot code from one  and add that code to other code to this and send 
