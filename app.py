@@ -14,7 +14,7 @@ from email.mime.text import MIMEText
 st.set_page_config("Meeting Scheduler", "📅", layout="wide")
 DATA_DIR = "data"
 CSV_FILE = f"{DATA_DIR}/meetings.csv"
-SERVICE_ACCOUNT_FILE = f"{DATA_DIR}/google_service_account.json"
+SERVICE_ACCOUNT_FILE = f"google_service_account.json"
 TZ = ZoneInfo("Asia/Karachi")
 HOST_EMAIL = os.environ.get("SMTP_USER")
 os.makedirs(DATA_DIR, exist_ok=True)
@@ -248,3 +248,4 @@ else:
                         st.session_state.edit_mode = False
                         st.session_state.pop('edit_id', None)
                         st.stop()
+
